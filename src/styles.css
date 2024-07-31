@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  padding: 5px 10px;
+}
+
+td {
+  border: 1px solid black;
+}
+
+/* 4. Style the list: The rows should have alternating background-colors */
+#listElement tr:nth-child(odd) td {
+  background-color: lightgray;
+}
