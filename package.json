@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "The JavaScript template",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "npm run dev",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
@@ -11,5 +12,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0"
   },
-  "keywords": ["css", "javascript"]
+  "keywords": [
+    "css",
+    "javascript"
+  ]
 }
